@@ -10,6 +10,8 @@ WIDTH, HEIGHT = 800, 500
 tile_size = 50
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pepe's Python Game")
+pygame.display.set_icon(pygame.image.load('images/icon.png'))
+
 
 clock = pygame.time.Clock()
 FPS = 30

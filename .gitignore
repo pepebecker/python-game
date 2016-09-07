@@ -1,4 +1,6 @@
 .DS_Store
 *.pyc
+*.cns
 __pycache__
-
+build
+dist
